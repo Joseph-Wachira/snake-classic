@@ -1,0 +1,31 @@
+# 🐍 Snake Classic
+
+A polished, production‑ready implementation of the classic Snake game built with React, TypeScript, and Tailwind CSS. Features a modern glassmorphism UI, dark/light theme, high score persistence, and responsive canvas rendering.
+
+![Game Screenshot](https://via.placeholder.com/800x400?text=Snake+Classic+Screenshot)
+
+## ✨ Features
+
+- **Full game loop** – Start, pause, reset, and game over states.
+- **Keyboard controls** – Use arrow keys to change direction.
+- **Score tracking** – Live score and persistent high score saved in `localStorage`.
+- **Dark / Light mode** – Toggle themes seamlessly with system preference detection.
+- **Polished UI** – Glassmorphism, smooth gradients, soft shadows, and subtle animations.
+- **Responsive** – Works on desktop, tablet, and mobile devices.
+- **Accessibility** – Semantic HTML, keyboard navigable controls, and ARIA labels.
+- **Performant** – Uses `requestAnimationFrame` for smooth game loop.
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React 18, TypeScript, Vite
+- **Styling:** Tailwind CSS (with custom glass and animation utilities)
+- **State Management:** Custom hooks (`useGame`, `useLocalStorage`, `useKeyboard`)
+- **Icons:** Inline SVG (no external icon library)
+- **Deployment:** Optimized static build (works with Vercel, Netlify, etc.)
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/snake-classic.git
+   cd snake-classic
